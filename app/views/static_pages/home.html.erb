@@ -1,2 +1,438 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<div id="primary">
+
+<div class="box info">
+  <div class="ttl"><span>お知らせ</span></div>
+  <div class="cont">
+    <ul class="info_list">
+      <li>総登録求人数：<span class="num">28209</span>件</li>
+      <li>モバイル版ドラジョブ（http://m.driver-job.jp)がスタートしました。</li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="box map">
+  <div class="ttl">都道府県から求人情報を探す</div>
+  <div class="inner">
+
+
+    <div class="map_japan">
+      <img src="/images/map_jpn.png" alt="" width="250" height="270" border="0" usemap="#japanMap" id="japan" style="opacity:1 !important" />
+      <map name="japanMap">
+        <area shape="poly" coords="163,114,171,127,161,147,169,150,176,150,194,153,232,71,248,36,205,2,109,6,80,38,82,72,163,114" href="search_detail.html" id="map_area_01">
+        <area shape="poly" coords="201,147,177,151,163,150,152,155,162,177,182,194,238,190,237,149,200,148" href="search_detail.html" id="map_area_02">
+        <area shape="poly" coords="165,120,169,129,166,148,154,158,162,170,159,188,122,193,126,175,122,168,78,153,75,113,165,121" href="search_detail.html" id="map_area_03">
+        <area shape="poly" coords="98,186,98,159,112,162,125,169,126,191,183,192,179,220,111,220,109,197,97,187" href="search_detail.html" id="map_area_04">
+        <area shape="poly" coords="10,152,93,159,103,168,100,186,109,197,103,221,77,221,72,201,52,196,3,195,8,153" href="search_detail.html" id="map_area_05">
+        <area shape="poly" coords="8,266,14,209,48,191,68,200,83,218,157,217,157,264" href="search_detail.html" id="map_area_06">
+      </map>
+    </div>
+
+  
+    <div class="area_unit area_01">
+      <div class="ttl">北海道・東北</div>
+      <ul class="area_list">
+        <li><a href="#">北海道</a></li>
+        <li><a href="#">青森</a></li>
+        <li><a href="#">秋田</a></li>
+        <li><a href="#">山形</a></li>
+        <li><a href="#">岩手</a></li>
+        <li><a href="#">宮城</a></li>
+        <li><a href="#">福島</a></li>
+      </ul>
+    </div>
+    
+    <div class="area_unit area_02">
+      <div class="ttl">関東</div>
+      <ul class="area_list">
+        <li><a href="#">東京</a></li>
+        <li><a href="#">神奈川</a></li>
+        <li><a href="#">埼玉</a></li>
+        <li><a href="#">千葉</a></li>
+        <li><a href="#">栃木</a></li>
+        <li><a href="#">茨城</a></li>
+        <li><a href="#">群馬</a></li>
+      </ul>
+    </div>
+
+    <div class="area_unit area_03">
+      <div class="ttl">中部</div>
+      <ul class="area_list">
+        <li><a href="#">愛知</a></li>
+        <li><a href="#">岐阜</a></li>
+        <li><a href="#">静岡</a></li>
+        <li><a href="#">三重</a></li>
+        <li><a href="#">新潟</a></li>
+        <li><a href="#">山梨</a></li>
+        <li><a href="#">長野</a></li>
+        <li><a href="#">石川</a></li>
+        <li><a href="#">富山</a></li>
+        <li><a href="#">福井</a></li>
+      </ul>
+    </div>
+
+
+    <div class="area_unit area_04">
+      <div class="ttl">関西</div>
+      <ul class="area_list">
+        <li><a href="#">大阪</a></li>
+        <li><a href="#">兵庫</a></li>
+        <li><a href="#">京都</a></li>
+        <li><a href="#">滋賀</a></li>
+        <li><a href="#">奈良</a></li>
+        <li><a href="#">和歌山</a></li>
+      </ul>
+    </div>
+
+
+    <div class="area_unit area_05">
+      <div class="ttl">中国・四国</div>
+      <ul class="area_list">
+        <li><a href="#">岡山</a></li>
+        <li><a href="#">広島</a></li>
+        <li><a href="#">鳥取</a></li>
+        <li><a href="#">島根</a></li>
+        <li><a href="#">山口</a></li>
+        <li><a href="#">香川</a></li>
+        <li><a href="#">徳島</a></li>
+        <li><a href="#">愛媛</a></li>
+        <li><a href="#">高知</a></li>
+      </ul>
+    </div>
+    
+
+    <div class="area_unit area_06">
+      <div class="ttl">九州・沖縄</div>
+      <ul class="area_list">
+        <li><a href="#">福岡</a></li>
+        <li><a href="#">佐賀</a></li>
+        <li><a href="#">長崎</a></li>
+        <li><a href="#">熊本</a></li>
+        <li><a href="#">大分</a></li>
+        <li><a href="#">宮崎</a></li>
+        <li><a href="#">鹿児島</a></li>
+        <li><a href="#">沖縄</a></li>
+      </ul>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<div class="box search_simple">
+  <h2 class="ttl_01">簡易検索</h2>
+  <div class="search_cont">
+    <ul class="search_cond_list cf">
+      <li class="area">
+        <div class="inner">
+          <span class="item_name">エリア<span>(都道府県)</span></span>
+          <span class="select">
+            <select name="">
+              <option value="">全国</option>
+            </select>
+          </span>
+        </div>
+      </li><!-- // area -->
+
+      <li class="job_cate">
+        <div class="inner">
+          <span class="item_name">職種</span>
+          <span class="select">
+            <select name="">
+              <option value="">指定しない</option>
+            </select>
+          </span>
+        </div>
+      </li><!-- // job_cate -->
+
+      <li class="status">
+        <div class="inner">
+          <span class="item_name">雇用<br>形態</span>
+          <span class="select">
+            <select name="">
+              <option value="">指定しない</option>
+            </select>
+          </span>
+        </div>
+      </li><!-- // job_cate -->
+
+      <li class="keyword">
+        <div class="inner">
+          <span class="item_name">キーワード</span>
+          <span class="input">
+            <input type="text" name="keyword" value="" placeholder="キーワード入力">
+          </span>
+        </div>
+      </li><!-- // job_cate -->
+      
+      <li class="btn">
+        <a href="/driverjob/search_detail.html" class="btn_01 search">検　索</a>
+      </li>
+
+    </ul>
+  </div>
+</div><!-- // box -->
+
+
+<div class="box search_detail">
+<table class="table_02 search_detail sp_chg">
+<tr>
+  <th colspan="2" class="ttl"><span>詳細（こだわり）検索</span></th>
+</tr>
+<tr>
+  <th>こだわり条件</th>
+  <td>
+    <ul class="search_state_list detail_cond_01">
+      <li><label><input type="checkbox" name="" value="">新着のみ</label></li>
+      <li><label><input type="checkbox" name="" value="">お祝い金あり</label></li>
+      <li><label><input type="checkbox" name="" value="">初心者未経験者歓迎</label></li>
+      <li><label><input type="checkbox" name="" value="">社会保険完備</label></li>
+      <li><label><input type="checkbox" name="" value="">認定資格取得事業者</label></li>
+      <li><label><input type="checkbox" name="" value="">週休2日制</label></li>
+      <li><label><input type="checkbox" name="" value="">女性歓迎</label></li>
+      <li><label><input type="checkbox" name="" value="">年齢不問</label></li>
+      <li><label><input type="checkbox" name="" value="">シニアOK</label></li>
+      <li><label><input type="checkbox" name="" value="">マイカー通勤OK</label></li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <th>職種</th>
+  <td>
+    <ul class="search_state_list detail_cond_02">
+      <li><label><input type="checkbox" name="" value="" checked="checked">トレーラー（牽引）ドライバー</label></li>
+      <li><label><input type="checkbox" name="" value="">大型トラックドライバー</label></li>
+      <li><label><input type="checkbox" name="" value="">中型トラックドライバー</label></li>
+      <li><label><input type="checkbox" name="" value="">小型トラックドライバー</label></li>
+      <li><label><input type="checkbox" name="" value="">大型バスドライバー</label></li>
+      <li><label><input type="checkbox" name="" value="">中型バスドライバー</label></li>
+      <li><label><input type="checkbox" name="" value="">小型バスドライバー</label></li>
+      <li><label><input type="checkbox" name="" value="">タクシードライバー</label></li>
+      <li><label><input type="checkbox" name="" value="">ハイヤードライバー</label></li>
+      <li><label><input type="checkbox" name="" value="">フォークリフト運転手</label></li>
+      <li><label><input type="checkbox" name="" value="">移動式クレーン運転手</label></li>
+      <li><label><input type="checkbox" name="" value="">その他ドライバー</label></li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <th>業種</th>
+  <td>
+    <ul class="search_state_list detail_cond_03">
+      <li><label><input type="checkbox" name="" value="">旅客運送業（タクシー・バス）</label></li>
+      <li><label><input type="checkbox" name="" value="">貨物運送業</label></li>
+      <li><label><input type="checkbox" name="" value="">建設業</label></li>
+      <li><label><input type="checkbox" name="" value="">医療、福祉</label></li>
+      <li><label><input type="checkbox" name="" value="">その他</label></li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <th>免許資格技能</th>
+  <td>
+    <ul class="search_state_list detail_cond_04">
+      <li><label><input type="checkbox" name="" value="">普通自動車免許</label></li>
+      <li><label><input type="checkbox" name="" value="">中型自動車免許</label></li>
+      <li><label><input type="checkbox" name="" value="">大型自動車免許</label></li>
+      <li><label><input type="checkbox" name="" value="">大型特殊自動車免許</label></li>
+      <li><label><input type="checkbox" name="" value="">小型特殊自動車免許</label></li>
+      <li><label><input type="checkbox" name="" value="">牽（けん）引免許</label></li>
+      <li><label><input type="checkbox" name="" value="">普通自動車第二種</label></li>
+      <li><label><input type="checkbox" name="" value="">普通自動車第二種</label></li>
+      <li><label><input type="checkbox" name="" value="">普通自動車第二種</label></li>
+      <li><label><input type="checkbox" name="" value="">大型特殊自動車第二種</label></li>
+      <li><label><input type="checkbox" name="" value="">牽（けん）引第二種</label></li>
+      <li><label><input type="checkbox" name="" value="">クレーン・デリック運転士</label></li>
+      <li><label><input type="checkbox" name="" value="">フォークリフト運転技能講習</label></li>
+      <li><label><input type="checkbox" name="" value="">移動式クレーン運転士</label></li>
+      <li><label><input type="checkbox" name="" value="">大型特殊自動車運転技能教習</label></li>
+      <li><label><input type="checkbox" name="" value="">ショベルローダー等運転技能講習</label></li>
+      <li><label><input type="checkbox" name="" value="">玉掛け技能講習</label></li>
+      <li><label><input type="checkbox" name="" value="">甲種危険物取扱者</label></li>
+      <li><label><input type="checkbox" name="" value="">乙種危険物取扱者</label></li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <th>乗務車両</th>
+  <td>
+    <ul class="search_state_list detail_cond_05">
+      <li><label><input type="checkbox" name="" value="">普通自動車</label></li>
+      <li><label><input type="checkbox" name="" value="">タクシー</label></li>
+      <li><label><input type="checkbox" name="" value="">ハイヤー</label></li>
+      <li><label><input type="checkbox" name="" value="">トレーラー</label></li>
+      <li><label><input type="checkbox" name="" value="">大型トラック（２０ｔ以上）</label></li>
+      <li><label><input type="checkbox" name="" value="">中型トラック（５ｔから２０ｔ未満）</label></li>
+      <li><label><input type="checkbox" name="" value="">小型トラック（４ｔ未満）</label></li>
+      <li><label><input type="checkbox" name="" value="">特殊車両</label></li>
+      <li><label><input type="checkbox" name="" value="">大型バス（路線）</label></li>
+      <li><label><input type="checkbox" name="" value="">大型バス（観光）</label></li>
+      <li><label><input type="checkbox" name="" value="">その他バス</label></li>
+    </ul>
+  </td>
+</tr>
+</table>
+
+<div class="btn_area">
+<a href="/driverjob/search_detail.html" class="btn_01 search">検　索</a>
+</div>
+
+<!--<ul class="btn_area">
+<li><a href="#" class="btn_01 search">検　索</a></li>
+</ul>-->
+
+</div>
+
+
+
+
+
+
+</div><!-- // primary -->
+
+
+<div id="secondary">
+
+
+
+<div class="bnr_area pc">
+  <!--<a href="#"><img src="/driverjob/images/home/555743_1.jpg" width="300" height="250" /></a>-->
+  <script type="text/javascript">
+  //<![CDATA[
+  if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000000012');
+  //]]>
+  </script>
+</div>
+
+
+
+
+<!--{* ユーザーログイン前 *}-->
+<div class="login_area user_login">
+  <h2>求職者ログイン</h2>
+  <div class="inner">
+    <input type="text" name="" value="" placeholder="メールアドレス" />
+    <input type="password" name="" value="" placeholder="パスワード" />
+    <div class="lrbox">
+      <div class="left"><a href="/driverjob/user/reminder.html">パスワードを忘れた方はこちら</a></div>
+      <div class="right"><a href="/driverjob/user/login.html" class="btn_03 login">ログイン</a></div>
+    </div>
+    <div class="btn_area">
+      <a href="/driverjob/user/index.html" class="btn_01">新規会員登録はコチラ</a>
+    </div>
+  </div>
+</div><!-- // login_area -->
+<!--{* ユーザーログイン前 *}-->
+
+
+
+<!--{* ユーザーログイン後 *}-->
+<div class="login_area user_logout">
+  <!--<h2>採用企業様ログイン</h2>-->
+  <div class="inner">
+    <div class="lrbox">
+      <div class="left">
+        <p class="name">こんにちは●●●様</p>
+      </div>
+      <div class="right"><a href="/driverjob/" class="btn_03 logout">ログアウト</a></div>
+    </div>
+    <div class="mail">
+      <a href="/driverjob/admin/client_mypage/message/list_receive.html">メールを見る</a>
+      - 新着メッセージなし
+    </div>
+  </div>
+</div><!-- // lgoin_area -->
+<!--{* ユーザーログイン後 *}-->
+
+
+
+<!--{* ユーザーログイン前 *}-->
+<div class="login_area client_login">
+  <h2>採用企業様ログイン</h2>
+  <div class="inner">
+    <input type="text" name="" value="" placeholder="メールアドレス" />
+    <input type="password" name="" value="" placeholder="パスワード" />
+    <div class="lrbox">
+      <div class="left"><a href="/driverjob/admin/client_mypage/reminder.html">パスワードを忘れた方はこちら</a></div>
+      <div class="right"><a href="/driverjob/admin/client_mypage/login.html" class="btn_03 login">ログイン</a></div>
+    </div>
+    <div class="btn_area">
+      <a href="/driverjob/client/index.html" class="btn_01">新規会員登録はコチラ</a>
+    </div>
+  </div>
+</div><!-- // lgoin_area -->
+<!--{* ユーザーログイン前 *}-->
+
+
+
+<!--{* ユーザーログイン後 *}-->
+<div class="login_area client_logout">
+  <!--<h2>採用企業様ログイン</h2>-->
+  <div class="inner">
+    <div class="lrbox">
+      <div class="left">
+        <p class="name">こんにちは●●●様</p>
+        <p class="scout">［スカウト数：残り<span class="num">8</span>通］</p>
+      </div>
+      <div class="right"><a href="/driverjob/" class="btn_03 logout">ログアウト</a></div>
+    </div>
+    <div class="mail">
+      <a href="/driverjob/admin/client_mypage/message/list_receive.html">メールを見る</a>
+      - 新着メッセージなし
+    </div>
+  </div>
+</div><!-- // lgoin_area -->
+<!--{* ユーザーログイン後 *}-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bnr_area pc">
+  <a href="#"><img src="/driverjob/images/home/555743_1.jpg" width="300" height="250" /></a>
+</div>
+
+
+
+
+
+
+<!-- fb-root -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- // fb-root -->
+
+
+<!-- fb-like-box -->
+<div class="fb-like-box pc" data-href="https://www.facebook.com/FacebookDevelopers" data-width="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+<!-- // fb-like-box -->
+
+
+<!-- Ads by Yahoo! JAPAN -->
+<div class="pc">
+<script type="text/javascript" src="http://contents00.adingo.jp.eimg.jp/0000000000000315/acs.js"></script>
+</div>
+<!-- // Ads by Yahoo! JAPAN -->
+
+
+
+</div>
+
+
+</div><!-- // contents -->
+

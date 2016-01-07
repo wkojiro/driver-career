@@ -11,5 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require 0html5reset.css
+ *= require 3common.css
  *= require_self
  */
