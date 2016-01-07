@@ -2,10 +2,10 @@
 
 @import url(html5reset.css);
 @import url(jquery.ui.all.css);
-@import url(common.css);
-@import url(index.css);
-@import url(page.css);
-@import url(mypage.css);
+@import url(3common.css);
+@import url(4index.css);
+@import url(5page.css);
+@import url(6mypage.css);
 @import url(ad.css);
 @import url(oiwaikin.css);
 @import url(client.css);

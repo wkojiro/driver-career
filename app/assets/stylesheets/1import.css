@@ -5,5 +5,5 @@
 @import url(index.css);
 @import url(page.css);*/
 
-@import url("pc.css") screen and (min-width:641px);
-@import url("sp.css") screen and (max-width:640px);
+@import url(2pc.css) screen and (min-width: 641px);
+@import url(10sp.css) screen and (max-width: 640px);

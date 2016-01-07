@@ -2,8 +2,20 @@
 <html>
 <head>
   <title>DriverCareer</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <!-- 
+  tubolinksは取りあえず外しておく。20160107
+  <%# stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%# javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    
+    -->
+
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+<!--　以下追加 -->
+  <%# stylesheet_link_tag  "import.css" %>
+  <%# stylesheet_link_tag  "bootstrap-switch.css" %>
+
+
   <%= csrf_meta_tags %>
 </head>
 <body>
