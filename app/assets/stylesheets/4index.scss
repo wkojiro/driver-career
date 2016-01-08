@@ -3,17 +3,17 @@
 
 .index .box.info{ box-sizing:border-box; display:table; width:100%; border:1px solid #e3e3e3; margin:0 0 15px; border-radius:5px; overflow:hidden;}
 .index .box.info .ttl{ display:table-cell; background: #fafafa; color:#444; padding:12px 10px 10px 2px; text-align:center; vertical-align:top; white-space:nowrap;}
-.index .box.info .ttl span{ background: url(../images/home/icon_info.png) 0px center no-repeat #f8f8f8; padding:0 0 0 25px;}
+.index .box.info .ttl span{ background:url(/images/home/icon_info.png) 0px center no-repeat #f8f8f8; padding:0 0 0 25px;}
 .index .box.info .info_list li span{ font-weight:bold; color:#c00; font-size:20px; margin:0 4px;}
 .index .box.info .cont{ display:table-cell; }
 .index .box.info .cont ul{ overflow:scroll; overflow-x:hidden; height:40px; padding:8px; }
-.index .box.info .cont ul li{ background:url(../images/common/icon_arrow_orange_03.png) 0 center no-repeat; padding:0 0 0 18px; margin:0 0 2px; font-size:12px;}
+.index .box.info .cont ul li{ background:url(/images/common/icon_arrow_orange_03.png) 0 center no-repeat; padding:0 0 0 18px; margin:0 0 2px; font-size:12px;}
 .index .search_state_list{ font-size:11px;}
 .index .search_state_list:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 .index .detail_cond_01 li{ width:33%; float:left;}
 .index .detail_cond_02 li,.index .detail_cond_03 li,.index .detail_cond_04 li,.index .detail_cond_05 li{ width:50%; float:left;}
 .index .map{ border:3px solid #87c20a; /*height:320px;*/ margin:0 0 25px; background:#f8f8f8;}
-.index .map > .ttl{ border-bottom:1px solid #87c20a; background:url(../images/common/icon_mglass.png) 10px center no-repeat #fff; padding:9px 35px; font-size:16px; line-height:100%;}
+.index .map > .ttl{ border-bottom:1px solid #87c20a; background:url(/images/common/icon_mglass.png) 10px center no-repeat #fff; padding:9px 35px; font-size:16px; line-height:100%;}
 .index .map .inner{ margin:15px; position:relative; background:#f8f8f8;}
 
 /*.index .map .inner:before{ content:url(../images/home/map_jpn.png); position:absolute; left:15px; top:8px;}
@@ -41,4 +41,4 @@
 table.search_detail{ border: 3px solid #ddd;}
 table.search_detail th,table.search_detail td{ text-align:left; padding:10px 12px;}
 table.search_detail th.ttl{ font-size:16px; background:#87c20a; line-height:100%; padding-top:12px; color:#fff;}
-table.search_detail th.ttl span{ background:url(../images/common/icon_mglass_02.png) 0 center no-repeat; background-size:18px 18px; padding:0 0 0 25px;}
+table.search_detail th.ttl span{ background:url(/images/common/icon_mglass_02.png) 0 center no-repeat; background-size:18px 18px; padding:0 0 0 25px;}

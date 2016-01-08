@@ -29,8 +29,9 @@ header .head_bar .inner .left{ display:table-cell; text-align:left; vertical-ali
 header .head_bar .inner .right{ display:table-cell; text-align:right; font-size:11px; vertical-align:middle; }
 header .head_bar .inner .pos { border-left:1px solid #ddd; float:right; }
 header .head_bar .inner .pos li{ float:left; border-right:1px solid #ddd; padding:1px 10px; }
-header .head_bar .inner .pos li a.user{ background:url(../images/common/pp_icon.gif) 0 center no-repeat; padding:0 0 0 15px; }
-header .head_bar .inner .pos li a.client{ background:url(../images/common/pp_icon.gif) 0 center no-repeat; padding:0 0 0 15px; }
+header .head_bar .inner .pos li a.user{ background:url(/images/common/pp_icon.gif) 0 center no-repeat; padding:0 0 0 15px; }
+
+header .head_bar .inner .pos li a.client{ background:url(/images/common/pp_icon.gif) 0 center no-repeat; padding:0 0 0 15px; } 
 header .head_bar .head_copy{ font-size:10px; }
 header > .inner{ width:970px; position:relative; margin:0 auto; padding-top:111px; }
 header h1{ position:absolute; top:30px; left:0px; }
